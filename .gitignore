@@ -1,0 +1,35 @@
+# Git ignore for Flutter + React Native + Node
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+.gradle/
+local.properties
+GeneratedPluginRegistrant.java
+*.class
+*.log
+*.lock
+!pubspec.lock
+
+# React Native / Node
+imas-react-native/node_modules/
+imas-react-native/.expo/
+imas-react-native/dist/
+imas-react-native/.expo-shared/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
